@@ -15,7 +15,7 @@ int B = int.Parse(Console.ReadLine()!);
 
 double Power(int A, int B)
 {
-    double result = A;
+    double result = 1;
     for (int i = 0; i < B; i++)
     {
         result = result * A;
